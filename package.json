@@ -1,0 +1,17 @@
+{
+  "name": "nj-courts-self-forms-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hannan Desai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.4",
+    "express": "^4.21.0",
+    "helmet": "^8.0.0",
+    "pdf-lib": "^1.17.1"
+  }
+}

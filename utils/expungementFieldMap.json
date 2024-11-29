@@ -1,0 +1,168 @@
+{
+    "DefName": {
+        "fields": [
+            "personal_information_first_name",
+            "personal_information_middle_name",
+            "personal_information_last_name"
+        ],
+        "seperator": " "
+    },
+    "DefAddrStr": {
+        "fields": "personal_information_street_address"
+    },
+    "DefAddr2": {
+        "fields": [
+            "personal_information_city",
+            "personal_information_state",
+            "personal_information_zipcode"
+        ],
+        "seperator": ", "
+    },
+    "DefPhone": {
+        "fields": "personal_information_phone"
+    },
+    "DefSsn": {
+        "fields": "personal_information_ssn"
+    },
+    "ExpungeDocketNum": {
+
+    },
+    "DefBirthDt": {
+        "fields": "personal_information_dob"
+    },
+    "Arrest1Dt": {
+        "fields": "arrest_information_date"
+    },
+    "Arrest1Loc": {
+        "fields": "arrest_information_jurisdiction"
+    },
+    "Arrest1Offense": {
+        "fields": "arrest_information_offense_name"
+    },
+    "Arrest1Statute": {
+        "fields": "arrest_information_statute_code"
+    },
+    "Arrest1IndNum":{
+        "fields": "arrest_information_docket_number"
+    },
+    "Arrest1ChrgDt": {
+        "fields": "case_disposition_date"
+    },
+    "Arrest1ChrgOffense": {
+        "fields": "arrest_information_offense_name"
+    },
+    "Arrest1DismissCrt": {
+        "fields": "case_disposition_court"
+    },
+    "Arrest1GuiltyDt": {
+        "fields": "conviction_information_date"
+    },
+    "Arrest1GuiltyOffense": {
+        "fields": "conviction_information_offense"
+    },
+    "Arrest1GuiltyStatute": {
+        "fields": "conviction_information_statute"
+    },
+    "Arrest1Sent": {
+        "fields": "sentencing_information_incarceration"
+    },
+    "Arrest1TimeEndDt": {
+        "fields": "sentencing_information_incarceration_end"
+    },
+    "Arrest1ProbEndDt": {
+        "fields": "sentencing_information_probation_end"
+    },
+    "Arrest1FinePaidDt": {
+        "fields": "sentencing_information_fine_payment"
+    },
+    "Arrest2Dt": {
+        "fields": "additional_arrest_information_date"
+    },
+    "Arrest2Loc": {
+        "fields": "additional_arrest_information_jurisdiction"
+    },
+    "Arrest2Offense": {
+        "fields": "additional_arrest_information_offense_name"
+    },
+    "Arrest2Statute": {
+        "fields": "additional_arrest_information_statute_code"
+    },
+    "Arrest2IndNum":{
+        "fields": "additional_arrest_information_docket_number"
+    },
+    "Arrest2ChrgDt": {
+        "fields": "additional_case_disposition_date"
+    },
+    "Arrest2ChrgOffense": {
+        "fields": "additional_arrest_information_offense_name"
+    },
+    "Arrest2DismissCrt": {
+        "fields": "additional_case_disposition_court"
+    },
+    "Arrest2GuiltyDt": {
+        "fields": "additional_conviction_information_date"
+    },
+    "Arrest2GuiltyOffense": {
+        "fields": "additional_conviction_information_offense"
+    },
+    "Arrest2GuiltyStatute": {
+        "fields": "additional_conviction_information_statute"
+    },
+    "Arrest2Sent": {
+        "fields": "additional_sentencing_information_incarceration"
+    },
+    "Arrest2TimeEndDt": {
+        "fields": "additional_sentencing_information_incarceration_end"
+    },
+    "Arrest2ProbEndDt": {
+        "fields": "additional_sentencing_information_probation_end"
+    },
+    "Arrest2FinePaidDt": {
+        "fields": "additional_sentencing_information_fine_amount"
+    },
+    "Arrest3Dt": {
+
+    },
+    "Arrest3Loc": {
+
+    },
+    "Arrest3Offense": {
+
+    },
+    "Arrest3Statute": {
+
+    },
+    "Arrest3IndNum":{
+
+    },
+    "Arrest3ChrgDt": {
+
+    },
+    "Arrest3ChrgOffense": {
+
+    },
+    "Arrest3DismissCrt": {
+
+    },
+    "Arrest3GuiltyDt": {
+
+    },
+    "Arrest3GuiltyOffense": {
+
+    },
+    "Arrest3GuiltyStatute": {
+
+    },
+    "Arrest3Sent": {
+
+    },
+    "Arrest3TimeEndDt": {
+
+    },
+    "Arrest3ProbEndDt": {
+
+    },
+    "Arrest3FinePaidDt": {
+        
+    }
+}

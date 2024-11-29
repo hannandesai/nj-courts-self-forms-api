@@ -1,0 +1,31 @@
+{
+    "port": 7001,
+    "server": {
+        "CORS": {
+            "allowedOrigins": [
+                "http://localhost:4200",
+                "http://localhost:3001",
+                "http://localhost:5173"
+            ],
+            "allowedMethods": "GET,POST,OPTIONS",
+            "allowedHeaders": "accept,content-type, certificate ,Authorization",
+            "exposedHeaders": ""
+        },
+        "bodyParser": {
+            "limit": "10mb"
+        },
+        "security": {
+            "enableCORS": true,
+            "enableXframe": true,
+            "enableHidePoweredBy": true,
+            "enableNoCaching": true,
+            "enableCSP": true,
+            "enableHSTS": true,
+            "enableXssFilter": true,
+            "enableReferrerPolicy": true,
+            "enableExpectCT": true,
+            "enableForceContentType": true
+        },
+        "enableCompression": true
+    }
+}

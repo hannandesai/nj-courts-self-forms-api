@@ -1,0 +1,442 @@
+[
+    {
+        "name": "DefPhone",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1Loc",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1Offense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1IndNum",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1ChrgDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1ChrgOffense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1DismissCrt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ExpungeCntyName",
+        "type": "PDFDropdown"
+    },
+    {
+        "name": "DefName",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "DefAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "DefAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "FormReset",
+        "type": "PDFButton"
+    },
+    {
+        "name": "FormPrint",
+        "type": "PDFButton"
+    },
+    {
+        "name": "Arrest1GuiltyDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1GuiltyOffense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1GuiltyStatute",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1Sent",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1TimeEndDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1ProbEndDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1FinePaidDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2Loc",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2Offense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2IndNum",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2ChrgDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2ChrgOffense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2DismissCrt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2GuiltyDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2GuiltyOffense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2GuiltyStatute",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2Sent",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2TimeEndDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2ProbEndDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2FinePaidDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3Loc",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3Offense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3IndNum",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3ChrgDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3ChrgOffense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3DismissCrt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3GuiltyDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3GuiltyOffense",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3GuiltyStatute",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3Sent",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3TimeEndDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3ProbEndDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3FinePaidDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "NotaryDtDay",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "NotaryDtYr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "NotaryDtMnth",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ExpungeDocketNum",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "DefBirthDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "DefSsn",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "OrderExpungeDtDay",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "OrderExpungeDtMth",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "OrderExpungeDtYr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1Dt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest1Statute",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2Dt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest2Statute",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3Dt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "Arrest3Statute",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "CntyName",
+        "type": "PDFDropdown"
+    },
+    {
+        "name": "OrderHearDtDay",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "OrderHearDtMth",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "HearDtTime2",
+        "type": "PDFDropdown"
+    },
+    {
+        "name": "OrderHearDtYr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "HearDtTime",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "HearDtDay",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "HearDtYr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "HearDtMth",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "OrderHearJdgName",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ProsCntyName",
+        "type": "PDFDropdown"
+    },
+    {
+        "name": "MuniCrts",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ProbCntyName",
+        "type": "PDFDropdown"
+    },
+    {
+        "name": "PoliceLoc",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "WardenLoc",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SuperintendentLoc",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "OrderExpungeJdgName",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SccAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SccAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "CoverLtrDDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SccCntyName",
+        "type": "PDFDropdown"
+    },
+    {
+        "name": "CoverLtrEDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "CoverLtrEHearDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "CoverLtrEHearTime",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "CoverLtrECertNum",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "FamDivName",
+        "type": "PDFDropdown"
+    },
+    {
+        "name": "ProofNoticeDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ProofNoticeSigDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "CoverLtrGDt",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "IbAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "IbAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ProsAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "MuniCrtsAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ProsAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "MuniCrtsAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "PoliceAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "WardenAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "PoliceAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "WardenAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ProbAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SuperintendentAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "ProbAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SuperintendentAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SheriffLoc",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SheriffAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "SheriffAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "FamDivAddrStr",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "FamDivAddr2",
+        "type": "PDFTextField"
+    },
+    {
+        "name": "CoverLtrGCertNum",
+        "type": "PDFTextField"
+    }
+]
