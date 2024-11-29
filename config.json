@@ -1,5 +1,5 @@
 {
-    "port": 7001,
+    "port": 3000,
     "server": {
         "CORS": {
             "allowedOrigins": [

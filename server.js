@@ -12,7 +12,8 @@ middlewares(app);
 // setup routes
 routes(app);
 
+const port = process.env.PORT || config.port;
 // start server
-app.listen(config.port, () => {
-    console.log(`Server is running on port ${config.port}`);
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 })
