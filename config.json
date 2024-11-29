@@ -27,5 +27,8 @@
             "enableForceContentType": true
         },
         "enableCompression": true
+    },
+    "encryption": {
+        "rsaPrivateKeyPath": "./keys/rsaPrivateKey.pem"
     }
 }

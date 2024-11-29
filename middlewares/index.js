@@ -54,6 +54,12 @@ module.exports = function (app) {
         limit: config.server.bodyParser.limit
     }));
 
+    // Decrypt req body
+	require("./decrypt-payload")(app);
+
+    // response interceptor to encrypt data before sending
+	// require('./responseInterceptor')(app);
+
     // Enable compression
     if (config.server.enableCompression) {
         app.use(compression());
