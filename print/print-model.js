@@ -68,16 +68,42 @@ const printModel = {};
 
 printModel.printPDF = (data) => {
     return new Promise((resolve, reject) => {
-        pdfLib.PDFDocument.load(fs.readFileSync("./pdf-forms/expungement-form.pdf")).then((pdfDoc) => {
+        pdfLib.PDFDocument.load(fs.readFileSync("./pdf-forms/expungement-form.pdf")).then(async (pdfDoc) => {
             const form = pdfDoc.getForm();
             const fields = form.getFields();
             fields.forEach((field) => {
                 if (field.constructor.name === "PDFTextField") {
                     // field.setText(data[field.getName()] ? data[field.getName()] : "test data");
+                    // field.setText(field.getName());
                     field.setText(getFieldValueFromData(field.getName(), data));
                 }
             });
 
+            if (data.signatureData && data.signatureType) {
+                // Get the first page of the document
+                const pages = pdfDoc.getPages();
+                const signaturePage = pages[14];
+                if (data.signatureType === "draw") {
+                    // Decode the base64 string
+                    // const signatureBytes = Buffer.from(data.signatureData, 'base64');   
+                    const signatureImage = await pdfDoc.embedPng(data.signatureData);
+                    
+                    // Draw the image on the first page at the desired position
+                    signaturePage.drawImage(signatureImage, {
+                        x: 360, // x-coordinate
+                        y: 205, // y-coordinate
+                        width: 65, // width of the image
+                        height: 38, // height of the image,
+                    });
+                } else {
+                    signaturePage.drawText(data.signatureData, {
+                        x: 360, // x-coordinate
+                        y: 205, // y-coordinate
+                        width: 65, // width of the image
+                        height: 38, // height of the image,
+                    });
+                }
+            }
             pdfDoc.save().then((data) => {
                 resolve(data);
             }).catch((err) => {
